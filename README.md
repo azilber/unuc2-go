@@ -18,10 +18,7 @@ window), including:
 - the **delta** filters, CP850 → UTF-8 name handling, long names, and the
   central-directory format.
 
-Files are decompressed **in parallel** across CPU cores. The full
-reverse-engineering and porting write-up — including what `super.bin` actually
-is and why it can't be replaced by generated code — is in
-[CONVERSION.md](CONVERSION.md).
+Files are decompressed **in parallel** across CPU cores.
 
 > Decode only: like the reference library, this tool extracts archives but does
 > not create them.
