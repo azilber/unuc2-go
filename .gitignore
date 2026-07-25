@@ -1,0 +1,9 @@
+# Build output
+/bin/
+/unuc2
+/unuc2-go
+*.test
+*.out
+
+# Editor / OS
+.DS_Store
